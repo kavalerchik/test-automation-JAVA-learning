@@ -1,4 +1,5 @@
 // this file is now connected to github
+//starting branch1_test
 package automationFramework;
 	
 	import org.openqa.selenium.By;
@@ -12,7 +13,7 @@ public class NavigateCommands {
 		// TODO Auto-generated method stub
 		WebDriver driverff = new FirefoxDriver();
 		
-		String URL = "http://www.DemoQA.com";
+		String URL = "http://www.DemoQA.co.il"; //was .com
 		driverff.get(URL);
 
 		driverff.findElement(By.xpath("/html/body/div/div/div[2]/aside[1]/div[2]/div/ul/li/a")).click();
@@ -24,7 +25,6 @@ public class NavigateCommands {
 		driverff.navigate().to(URL);
 		
 		driverff.navigate().refresh();
-		
 		//driver.close();
 	}
 
