@@ -1,3 +1,4 @@
+// this file is now connected to github
 package automationFramework;
 	
 	import org.openqa.selenium.By;
